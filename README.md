@@ -5,7 +5,7 @@
 
 > <h2>Configurações necessárias</h2>
 > - PHP 8.1 <br>
-> - Composer
+> - Composer <br>
 
 
 > <h1>Execute na linha de comando</h1>
