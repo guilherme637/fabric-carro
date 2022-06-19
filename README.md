@@ -4,7 +4,7 @@
 <p>O intuito é utilizar a orientação objeto para desenvolver uma fabrica e assim praticar meus conhecimentos</p
 
 > <h2>Configurações necessárias</h2>
-> - PHP 8.1
+> - PHP 8.1 <br>
 > - Composer
 
 
