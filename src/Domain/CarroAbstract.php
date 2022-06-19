@@ -10,8 +10,9 @@ use App\Domain\Marca\Marca;
 use App\Domain\Modelo\Modelo;
 use App\Domain\Motor\Motor;
 use App\Domain\Transmissao\Transmissao;
+use App\Infrastructure\Service\FichaTecnicaService;
 
-class CarroAbstract
+abstract class CarroAbstract
 {
     protected string $nome;
     protected Marca $marca;
@@ -126,5 +127,12 @@ class CarroAbstract
     public function setNome(string $nome): void
     {
         $this->nome = $nome;
+    }
+
+    public function fichaTecnica(): void
+    {
+        $fichaTecnica = new FichaTecnicaService($this);
+
+        $fichaTecnica->fichaTecnica();
     }
 }

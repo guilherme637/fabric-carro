@@ -6,6 +6,7 @@ use App\Domain\Transmissao\Correia\TipoCorreiaAbstract;
 
 abstract class TipoTransmissaoAbstract
 {
+    protected string $nomeTransmissao;
     protected int $qtdMarcha;
     protected TipoCorreiaAbstract $correia;
     protected bool $hasEmbreagem;
@@ -30,5 +31,10 @@ abstract class TipoTransmissaoAbstract
     public function hasEmbreagem(): bool
     {
         return $this->hasEmbreagem;
+    }
+
+    public function getNomeTransmissao(): string
+    {
+        return $this->nomeTransmissao;
     }
 }

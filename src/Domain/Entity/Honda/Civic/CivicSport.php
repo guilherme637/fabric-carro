@@ -17,6 +17,7 @@ use App\Domain\Modelo\Modelo;
 use App\Domain\Modelo\TipoModelo\Sedan;
 use App\Domain\Motor\Motor;
 use App\Domain\Motor\Versao\DoisPontoZero\DoisPontoZeroAspirado;
+use App\Domain\ShortNameClass;
 use App\Domain\Transmissao\Tipo\Automatico;
 use App\Domain\Transmissao\Transmissao;
 

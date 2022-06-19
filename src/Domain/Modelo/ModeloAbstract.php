@@ -6,6 +6,7 @@ use App\Domain\Modelo\Dimensao\DimensaoAbstract;
 
 class ModeloAbstract
 {
+    protected string $nomeModelo;
     private bool $hasLimpadorParabrisaTraseiro;
     private DimensaoAbstract $dimensao;
 
@@ -28,5 +29,10 @@ class ModeloAbstract
     public function getDimensao(): DimensaoAbstract
     {
         return $this->dimensao;
+    }
+
+    public function getNomeModelo(): string
+    {
+        return $this->nomeModelo;
     }
 }

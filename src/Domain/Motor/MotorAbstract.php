@@ -14,6 +14,7 @@ class MotorAbstract
         $this->potencia = $potencia;
         $this->valvulas = $valvulas;
         $this->turbo = $turbo;
+        $this->aspirado = $aspirado;
     }
 
     public function getPotencia(): float

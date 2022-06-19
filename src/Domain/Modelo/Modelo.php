@@ -22,4 +22,9 @@ final class Modelo
     {
         return $this->modelo->hasLimpadorParabrisaTraseiro();
     }
+
+    public function getModelo(): string
+    {
+        return $this->modelo->getNomeModelo();
+    }
 }

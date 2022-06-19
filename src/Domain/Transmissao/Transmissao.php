@@ -11,8 +11,13 @@ final class Transmissao
         $this->tipoTransmissao = $tipoTransmissao;
     }
 
-    public function getTransmissao(): TipoTransmissaoAbstract
+    public function sistemaTransmissao(): TipoTransmissaoAbstract
     {
         return $this->tipoTransmissao;
+    }
+
+    public function getNomeSistemaTransmissao(): string
+    {
+        return $this->tipoTransmissao->getNomeTransmissao();
     }
 }

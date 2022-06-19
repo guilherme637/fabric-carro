@@ -11,7 +11,7 @@ final class Freio
         $this->sistema = $sistema;
     }
 
-    public function getFreio(): string
+    public function getSistemaFreio(): string
     {
         return $this->sistema->getSistema();
     }
