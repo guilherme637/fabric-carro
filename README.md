@@ -10,3 +10,8 @@
 
 > <h1>Execute na linha de comando</h1>
 > <p>php teste.php</p>
+
+
+<h1>Desafio</h1>
+
+Criar uma fábrica de carros, onde a existirá um fabricante e seus modelos de carro e os mesmo poderam ser separados por lote de modelo de carros
